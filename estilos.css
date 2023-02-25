@@ -14,10 +14,10 @@ html{
 /* inicio */
 .inicio{
     background: linear-gradient(rgba(0,0,0.3), rgba(0,0,0.3));
-    background-image: url(img/fondo.jpg);
+    background-image: url(img/fondo.png);
     background-size: cover;
     background-position: center center;
-    color: #fff;
+    color: #ffffff;
 }
 .inicio .contenido-seccion {
     max-width: 1000px;
@@ -33,7 +33,7 @@ html{
 .inicio .contenido-seccion header nav{
     position: fixed;
     margin-left: 60px;
-    background-color: #FFA600;
+    background-color: #f8adff;
     padding: 15px;
     border-radius: 10px;
     text-align: left;
@@ -56,12 +56,12 @@ html{
     text-shadow: 0 0 35px #fff;
 }
 .inicio .contenido-seccion header .logo .color{
-    color: #FFA600;
+    color: #f8adff;
     font-family: "Yellowtail";
 }
 .inicio .contenido-seccion header .nav-bar {
     position: fixed;
-    background-color: #FFA600;
+    background-color:#f8adff;
     font-size: 20px;
     width: 50px;
     height: 50px;
@@ -94,8 +94,8 @@ html{
     display: inline-block;
     text-decoration: none;
     background-color: #000;
-    color: #FFA600;
-    border: 1px solid #FFA600;
+    color: #f8adff;
+    border: 1px solid #f8adff;
     border-radius: 50%;
     width: 40px;
     height: 40px;
