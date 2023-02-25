@@ -4,9 +4,225 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CV</title>
 </head>
 <body>
+    <!--Inicio-->
+    <section class="inicio" id="inicio">
+        <div class="contenido-seccion">
+            <header>
+                <div class="nav-bar" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <nav id="nav" class="nav">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#sobremi">Sobre mi</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#resumen">Resumen y Contacto</a>
+                </nav>
+                <div class="logo">
+                    R<span class="color">M</span>
+                </div>
+            </header>
+            <div class="info">
+                <h1>Ricardo Jordan</h1>
+                <h2>Programador, DesarrollorWeb</h2>
+                <div class="redes">
+                    <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.behance.net/"><i class="fa-brands fa-behance"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                </div>
+            </div>
+            <div class="foto">
+                <img src="img/27.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
     
+    <!--Sobre Mi-->
+    <section class="sobremi" id="sobremi">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Sobre Mi</h2>
+            <h3>Detalles Personales</h3>
+
+            <p class="especial">Siempre dando el 100% al trabajo y para los clientes</p>
+            <p>Joven con muchas ganas de progesar, sumar conocimientos y adquirir experencia laboral en el campo de programacion, principalmente en el area de desarrollo web. <br>Dedicado, Profesional, Capacitado</p>
+
+            <div class="fila">
+                <div class="col">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="titulo-detalle">Perfil</span>
+                    <p>Ricardo Jordan <br> 4/04/2000 <br>22 años</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span class="titulo-detalle">Ubicacion</span>
+                    <p>Argentina <br>Cordoba Capital <br>Barrio Nueva Cordoba</p>
+                </div>
+                <div class="col">
+                    <i class="fa-sharp fa-solid fa-flag"></i>
+                    <span class="titulo-detalle">Intereses</span>
+                    <p>Progesar, Sumar Conocimientos, Culturas, Idiomas, Aprender De Los Demas, Bienestar</p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!--Habilidades-->
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Mis Habilidades</h2>
+            <h3>Conocimientos</h3>
+
+            <div class="fila">
+                <div class="col">
+                    <span class="porcentaje">HTML</span>
+                    <div class="cont-barra">
+                        <span class="porcentaje">95%</span>
+                        <div class="barra" id="html">
+                        
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <span>CSS</span>
+                    <div class="cont-barra">
+                        <span class="porcentaje">90%</span>
+                        <div class="barra" id="css">
+                         
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <span class="porcentaje">JAVASCRIPT</span>
+                    <div class="cont-barra">
+                        <span class="porcentaje">80%</span>
+                        <div class="barra" id="javascript">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Resumen-->
+    <section class="resumen" id="resumen">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Resumen</h2>
+            <h3>Estudios y Experencia</h3>
+            <div class="info">
+                <div class="col">
+                    <span class="titulo">Estudios</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2017- 2020</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                (3 años) <br> Especificar, diseñar, codificar, probar, verificar, documentar, modificar y mantener programas
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <h4>Tec. Programacion</h4>
+                            <p>UTN Cordoba</p>
+                            <span class="promedio">8.5</span>
+                        </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2022- 2022</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                (10 Semanas) <br> Curso para adquirir/sumar mayores conocimientos en el area de programacion web
+                            </td>
+                        </tr>
+                        <tr>
+                        <td>
+                            <h4>Desarrollo Web/JavasScript</h4>
+                            <p>CoderHouse</p>
+                            <span class="promedio">Top 10</span>
+                        </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <span class="titulo">Experencia</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2 años</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Supervisor/Programador <br> Dentro del area de paginas web de Movistar
+                            </td>
+                        </tr>
+                        <tr>
+                        <td>
+                            <h4>Movistar</h4>
+                            <p>Programacion Junior</p>
+                            <span class="promedio">Cordoba</span>
+                        </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>1 año</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Tutor/Ayudante de Profesor <br>Del area de cursos de DesarrolloWeb & JavasScript
+                            </td>
+                        </tr>
+                        <tr>
+                        <td>
+                            <h4>CoderHouse DesarrolloWeb</h4>
+                            <p>Tutor</p>
+                            <span class="promedio">Virtual</span>
+                        </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contacto-->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Contacto</h2>
+            <h3>Contactame!</h3>
+
+            <div class="fila">
+                <div class="col">
+                <h2>
+                    <i class="fa-solid fa-phone"></i></i>Telefono
+                </h2>
+                <span class="info-contacto">+54 297523123</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-envelope"></i>Correo
+                    </h2>
+                    <span class="info-contacto">ricardojordan.g@gmail.com</span>
+                    </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="app.js"></script>
+
 </body>
 </html>
